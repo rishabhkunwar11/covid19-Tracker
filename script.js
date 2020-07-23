@@ -156,7 +156,7 @@ function getTable(data) {
     const table = document.querySelector('.state-list');
     //console.log(data);
     for (let i = 1; i < data.length; i++){
-        if(i === 23) {
+        if(data[i].state === "State Unassigned") {
             continue;
         }
         let row = ` 
